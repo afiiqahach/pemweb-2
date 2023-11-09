@@ -1,4 +1,102 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Plus+Jakarta+Sans:wght@400;700&family=Roboto&family=Rosario:ital,wght@0,400;0,500;0,700;1,300;1,400;1,600&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* memilih font */
+h1, p{
+  color: #1E1E1E;
+  font-family: Plus Jakarta Sans;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: normal;
+}
+
+p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.profil-header-banner{
+  width: 120px;
+  height: 120px;
+
+  position: relative;
+}
+
+.body{
+  background-color: #f4f4f4;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+/* container */
+.banner-container{
+  display: flex;
+  width: 442px;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  background-color: white;
+  border-radius: 24px;
+}
+
+/* header container */
+.header-banner-wrapper{
+  display: flex;
+  align-items: center;
+  gap: 32px;;
+}
+
+.content-header-banner{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.cta-banner-wrapper{
+  width: 100%;
+}
+
+.cta-button{
+  display: flex;
+  padding: 10px 177px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+
+  border-radius: 12px;
+  background: #B9E367;
+}
+
+.cta-button p{
+  font-size: 700;
+}
+
+
+
+
+
+
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -104,4 +202,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */
